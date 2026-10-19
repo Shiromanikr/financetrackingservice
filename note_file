@@ -1,0 +1,24 @@
+Finance Managment
+Authentication endpoint
+    POST/auth/register
+    POST\Auth/login
+    GET/autho/me
+
+Transaction endpoint
+    POST/Transaction
+    GET/Transaction
+    DELET/ Transaction with ID
+    GET/Transaction/analytics/month
+    GET/Transaction/analytics/Categories
+    GET/Transaction/analytics/Top Categories
+
+Installation
+pip Install fastapi,uvicorn
+pip install sqlalchemy
+pip install passlib[bcrypt] bcrypt===3.2.0
+pip install -jose
+
+
+    
+    
+
