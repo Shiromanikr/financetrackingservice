@@ -16,7 +16,7 @@ Base.metadata.create_all(bind=engine)
 @app.get("/")
 def root():
     return{
-        "message": "Personal Finance Management API"
+        "message": "Personal Finance Management API."
     }
 
 @app.get("/about")
